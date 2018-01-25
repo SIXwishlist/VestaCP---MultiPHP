@@ -47,7 +47,6 @@ PHP 7.1 :
 
 phpbrew install 7.1.13  +default +openssl=shared -- --with-openssl-dir=/usr/include/openssl --with-mysql-sock=/var/run/mysqld/mysqld.sock --with-mysql=mysqlnd --with-mysqli=mysqlnd --enable-pdo --with-pdo-mysql=mysqlnd --enable-exif --with-jpeg-dir=/usr --with-png-dir=/usr --with-freetype-dir=/usr --with-zlib-dir=/usr --with-mcrypt=/usr --with-mhash --with-xsl=/usr --enable-zip --enable-cgi --with-curl --with-gd --enable-pcntl --enable-mbregex --enable-gd-native-ttf --with-libdir=lib64 --enable-dba=shared --enable-intl --with-readline=/usr --enable-simplexml \--enable-soap --enable-zip --with-mhash=yes --enable-shmop --enable-sockets --enable-wddx --enable-calendar --enable-sysvsem --enable-sysvshm --enable-sysvmsg --enable-bcmath --with-bz2 --enable-ctype --with-cdb --with-iconv --enable-exif --enable-ftp --with-gettext --with-pic
 
-
 ln -s /usr/local/php/php/php-7.1.13/ /usr/local/php/php71
 
 4/ Tạo templates cho vestacp
@@ -55,25 +54,33 @@ ln -s /usr/local/php/php/php-7.1.13/ /usr/local/php/php71
 PHP 5.3 : 
 
 wget https://raw.githubusercontent.com/TanVietnix/VestaCP---MultiPHP/master/php53.sh  -O /usr/local/vesta/data/templates/web/httpd/php53.sh 
+
 wget https://raw.githubusercontent.com/TanVietnix/VestaCP---MultiPHP/master/php.tpl  -O /usr/local/vesta/data/templates/web/httpd/php53.tpl
+
 wget https://raw.githubusercontent.com/TanVietnix/VestaCP---MultiPHP/master/php.stpl   -O /usr/local/vesta/data/templates/web/httpd/php53.stpl
 
 PHP 5.4 : 
 wget https://raw.githubusercontent.com/TanVietnix/VestaCP---MultiPHP/master/php54.sh  -O /usr/local/vesta/data/templates/web/httpd/php54.sh 
+
 wget https://raw.githubusercontent.com/TanVietnix/VestaCP---MultiPHP/master/php.tpl  -O /usr/local/vesta/data/templates/web/httpd/php54.tpl
+
 wget https://raw.githubusercontent.com/TanVietnix/VestaCP---MultiPHP/master/php.stpl   -O /usr/local/vesta/data/templates/web/httpd/php54.stpl
 
 PHP 7.0:
 
 wget https://raw.githubusercontent.com/TanVietnix/VestaCP---MultiPHP/master/php70.sh -O /usr/local/vesta/data/templates/web/httpd/php70.sh 
+
 wget https://raw.githubusercontent.com/TanVietnix/VestaCP---MultiPHP/master/php.tpl  -O /usr/local/vesta/data/templates/web/httpd/php70.tpl
+
 wget https://raw.githubusercontent.com/TanVietnix/VestaCP---MultiPHP/master/php.stpl   -O /usr/local/vesta/data/templates/web/httpd/php70.stpl
  
 PHP 7.1 : 
 
 wget https://raw.githubusercontent.com/TanVietnix/VestaCP---MultiPHP/master/php71.sh  -O /usr/local/vesta/data/templates/web/httpd/php71.sh
+
 wget https://raw.githubusercontent.com/TanVietnix/VestaCP---MultiPHP/master/php.tpl  -O /usr/local/vesta/data/templates/web/httpd/php71.tpl
-wget https://raw.githubusercontent.com/TanVietnix/VestaCP---MultiPHP/master/php.stpl   -O /usr/local/vesta/data/templates/web/httpd/php71.stpl
+
+wget https://raw.githubusercontent.com/TanVietnix/VestaCP---MultiPHP/master/php.stpl   -O /usr/local/vesta/data/templates/web/httpd/php71.stpl
 
 
 Cập nhật quyền cho các PHP :
