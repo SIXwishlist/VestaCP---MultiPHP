@@ -53,34 +53,34 @@ ln -s /usr/local/php/php/php-7.1.13/ /usr/local/php/php71
 
 PHP 5.3 : 
 
-wget https://raw.githubusercontent.com/TanVietnix/VestaCP---MultiPHP/master/php53.sh  -O /usr/local/vesta/data/templates/web/httpd/php53.sh 
+wget https://raw.githubusercontent.com/tanhattan0051/VestaCP---MultiPHP/master/php53.sh  -O /usr/local/vesta/data/templates/web/httpd/php53.sh 
 
-wget https://raw.githubusercontent.com/TanVietnix/VestaCP---MultiPHP/master/php.tpl  -O /usr/local/vesta/data/templates/web/httpd/php53.tpl
+wget https://raw.githubusercontent.com/tanhattan0051/VestaCP---MultiPHP/master/php.tpl  -O /usr/local/vesta/data/templates/web/httpd/php53.tpl
 
-wget https://raw.githubusercontent.com/TanVietnix/VestaCP---MultiPHP/master/php.stpl   -O /usr/local/vesta/data/templates/web/httpd/php53.stpl
+wget https://raw.githubusercontent.com/tanhattan0051/VestaCP---MultiPHP/master/php.stpl   -O /usr/local/vesta/data/templates/web/httpd/php53.stpl
 
 PHP 5.4 : 
-wget https://raw.githubusercontent.com/TanVietnix/VestaCP---MultiPHP/master/php54.sh  -O /usr/local/vesta/data/templates/web/httpd/php54.sh 
+wget https://raw.githubusercontent.com/tanhattan0051/VestaCP---MultiPHP/master/php54.sh  -O /usr/local/vesta/data/templates/web/httpd/php54.sh 
 
-wget https://raw.githubusercontent.com/TanVietnix/VestaCP---MultiPHP/master/php.tpl  -O /usr/local/vesta/data/templates/web/httpd/php54.tpl
+wget https://raw.githubusercontent.com/tanhattan0051/VestaCP---MultiPHP/master/php.tpl  -O /usr/local/vesta/data/templates/web/httpd/php54.tpl
 
-wget https://raw.githubusercontent.com/TanVietnix/VestaCP---MultiPHP/master/php.stpl   -O /usr/local/vesta/data/templates/web/httpd/php54.stpl
+wget https://raw.githubusercontent.com/tanhattan0051/VestaCP---MultiPHP/master/php.stpl   -O /usr/local/vesta/data/templates/web/httpd/php54.stpl
 
 PHP 7.0:
 
-wget https://raw.githubusercontent.com/TanVietnix/VestaCP---MultiPHP/master/php70.sh -O /usr/local/vesta/data/templates/web/httpd/php70.sh 
+wget https://raw.githubusercontent.com/tanhattan0051/VestaCP---MultiPHP/master/php70.sh -O /usr/local/vesta/data/templates/web/httpd/php70.sh 
 
-wget https://raw.githubusercontent.com/TanVietnix/VestaCP---MultiPHP/master/php.tpl  -O /usr/local/vesta/data/templates/web/httpd/php70.tpl
+wget https://raw.githubusercontent.com/tanhattan0051/VestaCP---MultiPHP/master/php.tpl  -O /usr/local/vesta/data/templates/web/httpd/php70.tpl
 
-wget https://raw.githubusercontent.com/TanVietnix/VestaCP---MultiPHP/master/php.stpl   -O /usr/local/vesta/data/templates/web/httpd/php70.stpl
+wget https://raw.githubusercontent.com/tanhattan0051/VestaCP---MultiPHP/master/php.stpl   -O /usr/local/vesta/data/templates/web/httpd/php70.stpl
  
 PHP 7.1 : 
 
-wget https://raw.githubusercontent.com/TanVietnix/VestaCP---MultiPHP/master/php71.sh  -O /usr/local/vesta/data/templates/web/httpd/php71.sh
+wget https://raw.githubusercontent.com/tanhattan0051/VestaCP---MultiPHP/master/php71.sh  -O /usr/local/vesta/data/templates/web/httpd/php71.sh
 
-wget https://raw.githubusercontent.com/TanVietnix/VestaCP---MultiPHP/master/php.tpl  -O /usr/local/vesta/data/templates/web/httpd/php71.tpl
+wget https://raw.githubusercontent.com/tanhattan0051/VestaCP---MultiPHP/master/php.tpl  -O /usr/local/vesta/data/templates/web/httpd/php71.tpl
 
-wget https://raw.githubusercontent.com/TanVietnix/VestaCP---MultiPHP/master/php.stpl   -O /usr/local/vesta/data/templates/web/httpd/php71.stpl
+wget https://raw.githubusercontent.com/tanhattan0051/VestaCP---MultiPHP/master/php.stpl   -O /usr/local/vesta/data/templates/web/httpd/php71.stpl
 
 
 Cập nhật quyền cho các PHP :
