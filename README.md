@@ -60,6 +60,7 @@ wget https://raw.githubusercontent.com/tanhattan0051/VestaCP---MultiPHP/master/p
 wget https://raw.githubusercontent.com/tanhattan0051/VestaCP---MultiPHP/master/php.stpl   -O /usr/local/vesta/data/templates/web/httpd/php53.stpl
 
 PHP 5.4 : 
+
 wget https://raw.githubusercontent.com/tanhattan0051/VestaCP---MultiPHP/master/php54.sh  -O /usr/local/vesta/data/templates/web/httpd/php54.sh 
 
 wget https://raw.githubusercontent.com/tanhattan0051/VestaCP---MultiPHP/master/php.tpl  -O /usr/local/vesta/data/templates/web/httpd/php54.tpl
